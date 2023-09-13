@@ -20,7 +20,7 @@ mainform.addEventListener("submit", function (e) {
   taskItem.innerHTML = `
     <div class="task-div">
     <p onclick="complete(event)">${taskValue}</p>
-    <button onclick="deleteItem(event)">Done</button>
+    <button onclick="deleteItem(event)">Remove</button>
     </div>
     `;
   taskItem.classList.add("task-item");
