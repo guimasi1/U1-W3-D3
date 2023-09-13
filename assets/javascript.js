@@ -19,7 +19,7 @@ mainform.addEventListener("submit", function (e) {
   const taskItem = document.createElement("div");
   taskItem.innerHTML = `
     <div class="task-div">
-    <p>${taskValue}</p>
+    <p onclick="complete(event)">${taskValue}</p>
     <button onclick="deleteItem(event)">Done</button>
     </div>
     `;
@@ -32,4 +32,9 @@ mainform.addEventListener("submit", function (e) {
 const deleteItem = function (e) {
   const clickedItem = e.target;
   clickedItem.parentElement.remove();
+};
+
+const complete = function (e) {
+  const clicked = e.target;
+  clicked.classList.add("line");
 };

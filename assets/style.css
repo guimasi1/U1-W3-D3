@@ -2,8 +2,8 @@
 
 body {
   margin: 0;
-  background-image: url(https://cdn.pixabay.com/photo/2014/09/24/16/28/bricks-459299_1280.jpg);
-  background-size: contain;
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/10/02/05/tiles-shapes-2617112_1280.jpg);
+  background-size: cover;
 }
 
 .container {
@@ -89,4 +89,8 @@ main input::placeholder {
 
 .task-item button {
   padding: 0.3em 2em;
+}
+
+.line {
+  text-decoration: line-through;
 }
