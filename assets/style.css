@@ -73,7 +73,7 @@ main input::placeholder {
   width: 90%;
   background-color: #5a8a9b;
   display: inline-block;
-  margin: 0.4em 2em;
+  margin: 0.4em 2.5em;
   border-radius: 1em;
 }
 
@@ -83,7 +83,7 @@ main input::placeholder {
 
 .task-item p {
   display: inline-block;
-  margin: 1em 9em 1em 2em;
+  margin: 1em 26em 1em 2em;
   width: 200px;
 }
 
