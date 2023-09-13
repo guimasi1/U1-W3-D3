@@ -36,5 +36,5 @@ const deleteItem = function (e) {
 
 const complete = function (e) {
   const clicked = e.target;
-  clicked.classList.add("line");
+  clicked.classList.toggle("line");
 };
